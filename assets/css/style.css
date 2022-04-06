@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.carousel-inner,
+.carousel-item {
+    max-height: 80vh;
+}
+
+.gallery {
+    min-height: 100vh;
+    padding: 60px 40px;
+}
+
+.gallery img {
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 0 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.gallery img:hover {
+    transform: rotate(0);
+}
+
+.left-rotate {transform: rotate(-5deg);}
+.right-rotate {transform: rotate(5deg);}
+
+.modal-img {
+    width: 100%;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
